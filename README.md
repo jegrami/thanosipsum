@@ -9,7 +9,7 @@ Thanos Ipsum is a website and API that delivers iconic quotes from Marvel's belo
 embed into your app, prototypes, personal projects, or whatever.
 
 Honestly, there's little chance this would be of use to anyone. 
-I made this project to gain experience in full stack web development workflow, though at a basic level. But hey, "despise not the days of humble 
+I made this project to gain experience in full stack web development workflow, albeit at a basic level. But hey, "despise not the days of humble 
 beginnings," right? 
 
 Now, back to this thing.
