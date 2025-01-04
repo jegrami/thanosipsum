@@ -32,6 +32,7 @@ Features include
 3. [Usage](#usage)
 4. [API Endpoints](#api-endpoints)
 5. [License](#license)
+6. [Contact](#contact)
 
 ---
 
@@ -106,6 +107,18 @@ curl https://thanosipsum.com/api/quotes/3/endgame
 ## License
 
 This project is under the [MIT](https://directory.fsf.org/wiki/License:Expat) license. You know what that means. 
+
+---
+
+## Contact
+
+* [Website](https://jegrami.com)
+* [Email](mailto:jegrami.dev@gmail.com)
+* [LinkedIn](https://linkedin.com/in/jeremiah-igrami)
+* [X](https://twitter.com/je_grami)
+
+
+
 
 
 
