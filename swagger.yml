@@ -1,0 +1,132 @@
+openapi: 3.0.0
+info:
+  title: "Thanos Ipsum API"
+  description: "An API for retrieving Thanos's lines in the Avengers series."
+  version: 1.0.0
+
+servers:
+  - url: "/api"
+
+paths:
+  /quotes:
+    get:
+      operationId: quotes.get_all_quotes
+      tags:
+        - Quotes
+      summary: Get all quotes
+      responses:
+        "200":
+          description: A list of all quotes in the database
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Quote'
+
+  /quotes/{limit}:
+    get:
+      operationId: quotes.get_quotes
+      tags:
+        - Quotes
+      summary: Get a specified number of random quotes
+      parameters:
+        - in: path
+          name: limit
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Gets a given number of random quotes from the Avengers series
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Quote'
+
+  /quotes/{limit}/{movie}:
+    get:
+      operationId: quotes.get_quotes_by_movie
+      tags:
+        - Quotes
+      summary: Quotes from a specified movie
+      parameters:
+        - in: path
+          name: limit
+          required: true
+          schema:
+            type: integer
+        - in: path
+          name: movie
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: "A specified number of Thanos's quotes from the given movie"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Quote'
+        "404":
+          description: "Movie not found"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Dude... Never heard of that movie before in my life."
+        "500":
+          description: "Internal server error"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "I must have messed up somewhere. Sorry."
+
+  /quotes/{movie}:
+    get:
+      operationId: quotes.get_all_from_movie
+      tags:
+        - Quotes
+      summary: Get all quotes from a given movie.
+      parameters:
+        - in: path
+          name: movie
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Gets all Thanos's quotes from a given movie.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Quote'
+
+
+components:
+  schemas:
+    Quote:
+      type: object
+      properties:
+        id:
+          type: integer
+        quote:
+          type: string
+        movie:
+          type: string
+        keyword:
+          type: string
+

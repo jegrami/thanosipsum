@@ -1,0 +1,298 @@
+
+/*== Resets ==*/
+
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    line-height: 1.8;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+
+  /*== Root defs ==*/
+
+:root {
+    --primary: hsl(0, 0%, 96%);
+    --secondary: hsl(195, 53%, 79%);
+    --accent: hsl(275, 50%, 56%);
+    --head-color: hsl(180, 90%, 90%);
+    --header-bg: hsla(0, 0%, 0%, 0.3);
+    --heading-fonts: 'Playfair Display', 'Merriweather', 'Georgia', serif; 
+    --ff-code: 'Source Code Pro', monospace;
+    --inline-code-bg: hsl(211, 10%, 91%);
+    --inline-code-txt: hsl(212, 86%, 5%);
+    --code-bg: hsl(50, 100%, 95%);
+    --code-txt: hsl(53, 16%, 11%);
+    --body-fonts: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+
+/* font definition */
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('/static/fonts/playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'),
+         url('/static/fonts/playfairdisplay-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+
+/* Custom CSS */
+
+body {
+    background-image: url('/static/images/real-thanos.jpg');
+    background-size: contain;
+    background-position: top;
+    font-size: 1.1rem;
+}
+
+
+.main-container {
+    background-color: var(--primary);
+    width: 80%;
+    margin: 10rem auto 0;
+    padding: 1.5rem 0;
+    font-family: var(--body-fonts);
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background-color: var(--header-bg);
+    color: var(--head-color);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+.head-text {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    text-wrap: balance;
+    padding-top: 0.9rem;
+    padding-bottom: 0.3rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2.subtitle {
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+
+
+h2, h3, h4 {
+    font-family: var(--heading-fonts);
+}
+
+h2:not(.subtitle) {
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+ul {
+    margin: 0.5rem 0 1rem;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+ul.nav-list a {
+    color: var(--head-color);
+    text-decoration: none;
+}
+
+ul.nav-list a:hover {
+    background: hsl(0, 0%, 96%);
+    color: hsl(0, 0%, 25%)
+}
+
+hr {
+    width: 10%;
+    margin: 1rem 0;
+}
+
+a {
+    color:blueviolet;
+}
+
+a:hover {
+    color:blue;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 1.5rem;
+    padding: 0.5rem;
+    position: relative;
+    word-wrap: break-word;
+  }
+  
+  dt {
+    font-weight: 500;
+    color: hsl(0, 0%, 25%);
+    background: hsl(0, 0%, 94%);
+    padding: 0.5rem;
+  }
+  
+  dt::after {
+    content: ":";
+    font-weight: 600;
+    position: absolute;
+    margin-left: 0.2rem;
+  }
+
+
+
+article {
+    width: 75%;
+    margin: 1rem auto;
+    padding: 0.5rem 0;
+
+}
+
+.doc-head {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+
+p.subtitle {
+    font-size: 1.9rem;
+}
+
+
+code.inline {
+    display: inline-block;
+    background-color: var(--inline-code-bg);
+    word-wrap: break-word;
+    padding: 0.1rem 0.2rem;
+    font-size: 90%;
+    white-space: normal;
+    max-width: 100%;
+    
+}
+
+pre {
+    white-space: pre;
+    background-color: hsl(0, 0%, 94%);
+    padding: 0.9rem;
+    font-size: 13px;
+    overflow-x: auto;
+    border: 1px solid hsl(0, 0%, 87%);
+    color: hsl(0, 0%, 8%);
+    max-height: 400px;
+    box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.1);
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: var(--header-bg);
+    width: 90%;
+    margin: 2rem auto 0;
+    display: flex;
+    color: var(--head-color);
+    justify-content: space-around;
+    padding: 1rem 0 0.5rem;
+}
+
+footer a {
+    color: var(--head-color);
+}
+
+footer a:hover {
+    color: rgb(43, 7, 43);
+    background: var(--head-color);
+}
+
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 790px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 0.5rem;
+        justify-content: center;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .main-container {
+        width: 100%;
+        margin: 2rem auto 0;
+    }
+
+    dl {
+        grid-template-columns: 1fr;
+    }
+
+    dt {
+        background: transparent;
+    }
+
+    pre {
+        font-size: 0.8rem;
+        max-height: 300px;
+        margin-left: 0;
+    }
+
+    code.inline {
+        font-size: 85%;
+        
+    }
+}
+
+
+@media (max-width: 350px) {
+   h1.title {
+    font-size: 0.9rem;
+   }  
+}
+
+

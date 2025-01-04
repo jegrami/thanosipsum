@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Thanos API Documentation</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Jeremiah Igrami" >
+        <meta name="description" content="Thanos Quotes Ipsum provides all of Thanos' lines from the Avengers series and beyond.">
+
+        <link rel="stylesheet" href="/static/css/doc.css">
+    </head>
+    <body>
+        <header>
+            <div class="head-text">
+                <h1 class="title">Thanos API</h1>
+                <h2 class="subtitle">The baddest API on the internet</p>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li class="nav-item"><a  href="/">Sweet Home</a></li>
+                    <li class="nav-item"><a href="/contact">Contact</a></li>
+                </ul> 
+            </nav>
+        </header>
+
+        <main>
+            <section class="main-container">
+                <article class="doc-about">
+                    <h2>API Documentation</h2>
+                    <h3>About this API</h3>
+                    <p>
+                        First off, I'm not some cape-wearing, superhero fanboy. Nor am I
+                        a fan of Marvel's Cinematic Universe. I'm just a dude trying very hard to be a developer by making cool side projects, albeit useless. 
+                    </p>
+                    <p>
+                        I recently stumbled upon MCU's Avengers series.
+                        And I kinda liked everything that baldheaded, ridge-chined, purple-ass motherfucker Thanos said. 
+                        (That dude is a philosopher with an Infinity Gauntlet!)  
+                        So I made an API dedicated to his badassery. This is Thanos API, or TAPI (lol).
+                        Some Titanian-level wisdom right here.
+                    </p>
+
+                </article>
+                <article class="endpoints">
+                    <h3>Sever Endpoint</h3>
+                    <p> 
+                        The base url for TAPI is <a href="https://thanosipsum.com/api.">https://thanosipsum.com/api.</a>
+                        But you probably already guessed it.
+                    </p>
+
+                    <h4>HTTP Methods</h4>
+                    <dl>
+                        <dt>GET</dt>
+                        <dd>
+                            The <em>only</em> HTTP method you'll ever need here. 
+                            Because how dare you, mere mortal, try to alter the words of the Dark Lord?
+                        </dd>
+                        <dt>POST, UPDATE, DELETE</dt>
+                        <dd>Ha! Cute . . . But no.</dd>
+                    </dl>
+                    <h4>API Endpoints</h4>
+                    <p>The treasure map to Thanos's quotes of doom.</p>
+                    <dl>
+                        <dt>/quotes</dt>
+                        <dd>
+                            Fetch all the quotes from the database. Don’t panic&mdash;it’s not going
+                            to melt your CPU. There are only about 100 of them.
+                        </dd>
+                        <dt>/quotes/{limit:int}</dt>
+                        <dd>This gets a specified number of random Thanos quotes</dd>
+                        <dt>/quotes/{limit:int}/{movie:str}</dt>
+                        <dd>Want to see some quotes from a specific movie? This is ya route.</dd>
+                        <dt>/quotes/{movie:str}</dt>
+                        <dd>This retrieves all the quotes from a given movie.</dd>
+                    </dl>
+                </article>
+
+                <article class="examples">
+                    <h3>Request and Response Examples</h3>
+                    <p>How to get started? Simple.</p>
+                    <ul>
+                        <li>Make a GET request to https://thanosipsum.com/api</li>
+                        <li>Use the endpoints to sculpt the output however you like.</li>
+                    </ul>
+                    <h4>Example:</h4>
+                    <ul>
+                        <li>Need three random quotes? <code class="inline">/quotes/3</code></li>
+                        <li>Want all quotes from Infinity War? <code class="inline">/quotes/infinity</code></li>
+
+                    </ul>
+
+                    <p>The response format is JSON, because even Thanos doesn't mess with XML.</p>
+                    <p>For instance, the following command (using faithful old cURL) would get you two whole paragraphs of uncut Thanos quotes from the movie Endgame:</p>
+                    <p><code class="inline">curl -X GET https://badthanos.com/api/quotes/2/endgame</code></p>
+                    <pre>
+                        <code>
+                            [ {
+                                "id": 11,
+                                "keyword": "grateful",
+                                "movie": "Avengers: Endgame",
+                                "quote": "You should be grateful."
+                              },
+                              {
+                                "id": 33,
+                                "keyword": "nebula",
+                                "movie": "Avengers: Endgame",
+                                "quote": "Thank you, daughter. Perhaps I treated you too harshly."
+                              }
+                            ]
+
+                        </code>
+                    </pre>
+                    <p>Easy peasy.</p>
+
+                </article>
+                <article class="conclusion">
+                    <p>
+                        This API is purely for fun (obviously). So go ahead and play 
+                        with it however you want. Build something unnecessary but awesome.
+                    </p>
+                    <p>But if you do build a million-dollar app with it, <a href="/contact" >send me a cut</a>.</p>
+                    
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-blurb">
+                <p>&copy; 2025. Blah blah blah | Thanos The Mad Titan.</p>
+                <p>Half of all life preserved.</p>
+
+            </div>
+            <div class="footer-links">
+                <p>
+                    The dork who made this thing has a <a href="https://jegrami.com">website</a>.
+                </p>
+            </div>        
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,494 @@
+
+/*==== CSS Reset Rules ====*/
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+}
+
+/* Controls font-size inflation in Mobile Safari */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/* Responsive reset for the body tag */
+ body {
+    min-height: 100vh;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Improves media defaults */
+ img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  /* Form controls should inherit fonts */
+ input, button, textarea, select {
+    font: inherit;
+  }
+
+ p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  /* Better text wrapping */
+ p {
+    text-wrap: pretty;
+  }
+ h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+
+
+  /* tighter line-heights for heading and interactive elements */
+ h1, h2, h3, h4,
+ button, input, label {
+  line-height: 1.1;
+}
+
+/* Links without a class get default color */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+    color: currentColor;
+  }
+
+  textarea:not([rows]) {
+    min-height: 10em
+  }
+
+
+  /*==== :root definitions (Global Variables) ====*/
+
+  :root {
+    --bg-color: hsl(0, 0%, 98%);
+    --text-color: hsl(49, 100%, 96%);
+    --text-color-2: hsl(180, 100%, 90%);
+    --hero-color: ;
+    --linear-g-1: hsl(208, 100%, 97%);
+    --linear-g-2: hsl(195, 53%, 79%);
+    --linear-g-3: hsl(275, 40%, 56%);
+    --accent-color: ;
+    --midniteblue: #2C3E50;
+    --gold: #FFD700;
+    --purple-dark: #4B0082;
+    --graytone: #CCCCCC;
+    --graytone2: #666666;
+    --heading-fonts: 'Playfair Display', 'Merriweather', 'Georgia', serif; 
+    --body-fonts: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+
+
+
+  /*===== Font definitions ==== */
+
+  @font-face  {
+    font-family: 'Yesteryear';
+    src: url('/static/fonts/Yesteryear-Regular.woff2') format('woff2'),
+         url('/static/fonts/Yesteryear-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+
+  }
+
+  @font-face {
+    font-family: 'Playfair Display';
+    src: url('/static/fonts/playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'),
+         url('/static/fonts/playfairdisplay-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+  /*==== Custom Styles ====*/
+
+
+  /* Layout */
+
+  body {
+    font-family: var(--body-fonts);
+
+  }
+
+  h2, h3, h4 {
+    font-family: var(--heading-fonts);
+  }
+
+  
+
+  /*.nav-head {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin:  1rem auto 0;
+    padding: 0.5rem 0 1.5rem;
+  }
+
+  .page-head {
+    display: flex;
+    flex-direction: column;
+  }
+  */
+
+  
+
+  .page-title {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin:  1rem auto 0;
+    padding: 0.5rem 0 1.5rem;
+  }
+
+  .page-subtitle {
+    justify-items: center;
+    margin: 2rem auto 1rem;
+  }
+
+
+  #page-brand {
+    font-family: 'Yesteryear', 'Dancing Script', 'Pacifico', cursive, sans-serif;
+}
+
+  .navbar ul {
+    display: inline-flex;
+    gap: 1rem;
+    list-style-type: none;
+    text-transform: uppercase;
+  }
+
+  .navbar ul a:hover {
+    background: var(--bg-color);
+  }
+
+  
+
+  li.nav-item a {
+    text-decoration: none;
+  }
+
+  
+  section.container {
+    border: 1px solid var(--bg-color);
+    width: 90%;
+    margin: 0 auto 2rem;
+    text-align: center;
+    
+  }
+
+
+  .page-subtitle {
+    margin: 0;
+    padding: 0.5rem 0 2rem;
+  }
+
+
+
+  .page-head {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 1rem auto;
+    gap: 1rem;
+    background: linear-gradient(250deg, var(--linear-g-1), var(--linear-g-2), var(--linear-g-3));
+    background-size: 300% 300%;
+    animation: gradient-flow 10s ease infinite;
+  }
+
+  @keyframes gradient-flow {
+    0% {
+      background-position: 0 50%
+  }
+  50% {
+      background-position: 100% 50%
+  }
+  100% {
+      background-position: 0 50%
+  }
+  }
+
+  .hero-content {
+    background-image: url('/static/images/thanos-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: var(--bg-color);
+    position: relative;
+    padding: 1rem 0;
+
+  }
+
+  .hero-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 0%, 0%, 0.3);
+    pointer-events: none; /* So that it doesn't mess with interaction */
+    z-index: 1; /* Keeps it above the background image but below content */
+  }
+
+  .hero-content * {
+    position: relative;
+    z-index: 2;
+}
+
+.profile {
+  width: 50%;
+  margin-left: 30rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  padding: 1rem 2rem 0 2rem;
+
+}
+
+.hero-story {
+  width: 70%;
+  padding: 1rem 2rem 1rem 2rem;
+
+
+}
+
+dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 1.5rem;
+  padding: 0.7rem;
+  position: relative;
+}
+
+dt {
+  font-weight: 600;
+}
+
+dt::after {
+  content: ":";
+  font-weight: 600;
+  position: absolute;
+  margin-left: 0.2rem;
+}
+
+h3.profile-title {
+  text-align: center;
+  
+}
+
+
+
+.output {
+  background-color: hsl(0, 0%, 96%);
+}
+
+p.output-lede {
+
+  padding: 1rem 0 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+
+.form-container {
+  background-color: hsl(0, 0%, 90%);
+  width: 80%;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.form-group {
+  flex: 1 1 calc(50% - 1rem);
+}
+
+@media (max-width: 768px ) {
+  .form-group {
+    flex: 1 1 100%;
+  }
+}
+
+
+select {
+  background-color: #fff;
+  border-color: #fff;
+  font-size: 1rem;
+  height: 3rem;
+  letter-spacing: .7px;
+  padding: .7rem;
+  text-align: center;
+  transition: border-color 300ms ease-out 0s;
+  width: 100%;
+  margin: 0 auto;
+}
+select:hover {
+  border-color: #000
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.button-item {
+  background: var(--purple-dark);
+  color: var(--text-color-2);
+  text-transform: uppercase;
+  padding: 0.9rem 0;
+  margin: 1rem auto;
+}
+
+#summon {
+  flex: 3;
+}
+
+#copy {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+  
+  
+  }
+
+  #summon, #copy {
+    flex: 1 1 100%;
+    padding: 0.8rem;
+  }
+}
+
+
+button:hover {
+  
+  color:hsl(0, 0%, 25%);
+  background: hsl(0, 0%, 90%); 
+  transition: all 0.3s ease-in-out
+}
+
+.quote-box {
+  width: 80%;
+  margin: 1rem auto;
+  background-color:  hsl(0, 0%, 98%);
+  border: 1px solid hsl(0, 0%, 98);
+  border-radius: 2px;
+  padding: 2rem 0;
+
+}
+
+.quote-box p {
+  line-height: 1.7;
+  font-size: 1.1rem;
+  text-align: left;
+  padding: 1rem 0.9rem;
+}
+
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+footer {
+  background-color: var(--bg-color);
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
+
+
+
+
+
+/*===== Typography =====*/
+
+h2.hero-title {
+  font-size: 2rem;
+}
+
+p.hero-subtitle {
+  font-size: 1.7rem;
+  font-style: italic;
+}
+
+div.text-gold {
+  color: var(--text-color-2);
+}
+
+
+
+/*=== Media Queries ===*/
+
+@media (max-width: 980px) {
+  .hero-content {
+    background-size: contain;
+    padding: 1rem 0.5rem;
+  }
+
+  .profile, .hero-story {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .page-head {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  ul.nav-list {
+    font-size: 0.9rem;
+  }
+
+  #page-brand {
+    font-size: 1.5rem;
+  }
+
+  
+  h2.hero-title {
+    font-size: 1.5rem;
+  }
+
+  p.hero-subtitle{
+    font-size: 1.1rem;
+  }
+
+  .quot-box p {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  footer {
+    flex-direction: column; 
+    align-items: center;
+    font-size: 0.7rem;
+    gap: 0.6rem;
+  }
+}
+
+
+
+
+  
