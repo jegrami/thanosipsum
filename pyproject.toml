@@ -1,0 +1,49 @@
+
+[build-system]
+requires = ["pdm-backend", "pdm-build-locked"]
+build-backend = "pdm.backend"
+
+[project]
+name = "thanos-ipsum"
+description = "A website and API for generating Thanos's quotes."
+version = "0.1.0"
+authors = [
+    {name = "Jeremiah Igrami", email = "jegrami.dev@gmail.com"}
+]
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = [
+    "flask>=3.1.0",
+    "flask-sqlalchemy>=3.1.1",
+    "flask-marshmallow>=1.2.1",
+    "connexion[swagger-ui, flask, uvicorn]"
+
+]
+readme = "README.md"
+keywords = ["flask", "connexion", "uvicorn", "api", "thanos", "ipsum",]
+
+[project.urls]
+Homepage = "https://thanosipsum.com"
+Repository = "https://github.com/jegrami/thanosipsum"
+Documentation = "https://thanosipsum.com/documentation"
+Base_API_Endpoint = "https://thanosipsum.com/api"
+
+[project.optional-dependencies]
+pytest = [
+    "pytest>=8.3.4",
+    "pytest-flask>=1.3.0",
+]
+
+[tool.pdm.build]
+locked = true
+
+[tool.pdm.scripts]
+start = "uvicorn app:app --reload"
+test = "pytest"
+
+
+
+
+
+
+

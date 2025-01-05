@@ -21,7 +21,7 @@ Now, back to this thing.
 Features include 
 - a Thanos Ipsum website to explore and generate Thanos's quotes
 - a fully functional API for accessing Thanos's quotes programmatically 
-- an API documentation because every API needs a good one
+- an API documentation . . . because every API needs a good one
 
 --- 
 
@@ -45,10 +45,11 @@ that are popular, widely supported, and easy to set up (for my own sanity, lol).
 
 ## Installation
 
-Ebsure you have the following installed:
+Ensure you have the following installed:
 
 - Python 3.9+
-- PDM(https://pdm-project.org/en/latest/)
+- [PDM](https://pdm-project.org/en/latest)
+
 
 > [!NOTE]
 > I wanted to use poetry for dependency management because, as of this writing and following my philosophy above, Poetry is the most popular among the slew of modern packaging tools in PYPA, second only to setuptools. But I couldn't access the website because it seems to be blocking traffic from my local network. It might have something to do with Poetry website being blocked by AT&T fiber, per [this Github issue](https://github.com/python-poetry/website/issues/153#issue-2285760763). PDM
