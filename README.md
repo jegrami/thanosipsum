@@ -6,7 +6,7 @@
 > &mdash; <cite>Thanos</cite>
 
 Thanos Ipsum is a website and API that delivers iconic quotes from Marvel's beloved supervillain. A quote generator with a galactic touch that you could
-embed into your app, prototypes, personal projects, or whatever.
+embed as placeholder text into your apps, prototypes, personal projects, templates, or whatever.
 
 Honestly, there's little chance this would be of use to anyone. 
 I made this project to gain experience in full stack web development workflow, albeit at a basic level. But hey, "despise not the days of humble 
@@ -52,7 +52,7 @@ Ensure you have the following installed:
 
 
 > [!NOTE]
-> I wanted to use poetry for dependency management because, as of this writing and following my philosophy above, Poetry is the most popular among the slew of modern packaging tools in PYPA, second only to setuptools. But I couldn't access the website because it seems to be blocking traffic from my local network. It might have something to do with Poetry website being blocked by AT&T fiber, per [this Github issue](https://github.com/python-poetry/website/issues/153#issue-2285760763). PDM
+> I wanted to use poetry for dependency management because, as of this writing and following my philosophy above, poetry is the most popular among the slew of modern Python packaging tools. But python-poetry.org seems to be rejecting traffic from my local network. It might have something to do with Poetry website being blocked by AT&T fiber, per [this Github issue](https://github.com/python-poetry/website/issues/153#issue-2285760763). Luckily, PDM
 is also excellent, relatively popualar, and, most important, easy to set up. 
 
 ### Steps
@@ -82,32 +82,34 @@ pdm run uvicorn app:app --reload
 
 ### Website
 
-Visit the website and interact with the quote generator to explore some words of doom from Thanos The Mad Titan.
+Visit the website and interact with the quote generator. Explore some words of doom from Thanos The Mad Titan.
 
 ### API Endpoints
 
 If you're fetching quotes programatically, here are the few endpoints you need 
-to know, all *GET*s (it doesn't "get" any easier than that):
+to know, all *GET*s (see? it doesn't "get" any easier than this):
 
-The base url endpoint is https://thanosipsum.com/api, and then:
+The base url endpoint is https://thanosipsum.onrender.com/api, and then:
 
 - `GET /quotes`
-Fetch all avaialable quotes.
+Fetches all avaialable quotes.
 - `GET /quotes/{limit:int}`
-Retrieve a specific number of random quotes.
+Retrieves a specific number of random quotes.
 - `GET /quotes/{movie:str}`
-Get all quotes from a given movie.
+Gets all quotes from a given movie.
 - `GET /quotes/{limit:int}/{movie:str}`
-This retrieves a specific number of quotes from a given movie.
+Retrieves a specific number of quotes from a given movie.
 
 ### Example request
 ```bash
-curl https://thanosipsum.com/api/quotes/3/endgame 
+curl https://thanosipsum.onrender.com/api/quotes/3/endgame 
 ```
+
+Read the full documentation [here](https://thanosipsum.onrender.com/documentation).
 
 ## License
 
-This project is under the [MIT](https://directory.fsf.org/wiki/License:Expat) license. You know what that means. 
+This project is under the [MIT License](/LICENSE). You know what that means. 
 
 ---
 
