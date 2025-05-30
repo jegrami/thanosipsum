@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:0d34b9eeb53fd135de70d7f38cb9128ced09fcef9696109a0f39909fab1abc56"
+content_hash = "sha256:f90f1a42681e8e8e866653a9061272415d91c2e5c4b8e9b25f17b2dd1d77afdb"
 
 [[metadata.targets]]
 requires_python = ">=3.9"
@@ -659,6 +659,22 @@ dependencies = [
 files = [
     {file = "marshmallow-3.23.3-py3-none-any.whl", hash = "sha256:20c0f8c613f68bcb45b2a0d3282e2f172575560170bf220d67aafb42717910e4"},
     {file = "marshmallow-3.23.3.tar.gz", hash = "sha256:d586c8685ebdb80bf754e1f96e3f305aaf30951f1fc69175b977453633467e76"},
+]
+
+[[package]]
+name = "marshmallow-sqlalchemy"
+version = "1.4.2"
+requires_python = ">=3.9"
+summary = "SQLAlchemy integration with the marshmallow (de)serialization library"
+groups = ["default"]
+dependencies = [
+    "SQLAlchemy<3.0,>=1.4.40",
+    "marshmallow>=3.18.0",
+    "typing-extensions; python_version < \"3.10\"",
+]
+files = [
+    {file = "marshmallow_sqlalchemy-1.4.2-py3-none-any.whl", hash = "sha256:65aee301c4601e76a2fdb02764a65c18913afba2a3506a326c625d13ab405b40"},
+    {file = "marshmallow_sqlalchemy-1.4.2.tar.gz", hash = "sha256:6410304bf98ec26ea35f3f9d3cee82e51fd093c434612add32a0bdcdb5668f7c"},
 ]
 
 [[package]]
