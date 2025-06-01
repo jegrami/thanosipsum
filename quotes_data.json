@@ -1,0 +1,507 @@
+[
+  {
+    "quote": "I am inevitable.",
+    "movie": "Avengers: Endgame",
+    "keyword": "inevitable"
+  },
+  {
+    "quote": "Look. Pretty, isn't it? Perfectly balanced, as all things should be. Too much to one side or the other...Here. You try. Uh-uh, concentrate. There! you've got it.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "balance"
+  },
+  {
+    "quote": "I finally rest and watch the sun rise on a grateful universe. The hardest choices require the strongest wills.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "sacrifice"
+  },
+  {
+    "quote": "The universe required correction. After that, the stones served no purpose beyond temptation.",
+    "movie": "Avengers: Endgame",
+    "keyword": "correction"
+  },
+  {
+    "quote": "I know what it is like to lose. To feel so desperately that you are right. Yet to fail, nonetheless. It is frightening. Turns the legs to jelly. I ask you, to what end? Dread it, run from it . . . destiny arrives all the same. And now it is here. Or should I say . . . I am",
+    "movie": "Avengers: Infinity War",
+    "keyword": "loss, destiny"
+  },
+  {
+    "quote": "The Tesseract, or your brother's head. I assume you have a preference.",
+    "movie": "Avengers: infinity War",
+    "keyword": "tesseract"
+  },
+  {
+    "quote": "The only matter I do not take seriously, boy, is you. Your politics bore me! Your demeanor is that of a pouty child. And apparently, you alienated my favorite daughter, Gamora. I shall honor our agreement, Kree, if you bring me the Orb. But return to me again empty handed, and I will bathe the stairways in your blood",
+    "movie": "Guardians of the Galaxy",
+    "keyword": "orb"
+  },
+  {
+    "quote": "Bring it to me.",
+    "movie": "Guardians of the Galaxy",
+    "keyword": "bring"
+  },
+  {
+    "quote": "Fine, I'll do it myself",
+    "movie": "Avengers: Age of Ultron",
+    "keyword": "thanos"
+  },
+  {
+    "quote": "Boy! I would reconsider your current course.",
+    "movie": "Guardians of the Galaxy",
+    "keyword": "reconsider"
+  },
+  {
+    "quote": "You should be grateful.",
+    "movie": "Avengers: Endgame",
+    "keyword": "grateful"
+  },
+  {
+    "quote": "Gone. Reduced to atoms",
+    "movie": "Avengers: Endgame",
+    "keyword": "destroyed, gone"
+  },
+  {
+    "quote": "Everything",
+    "movie": "Avengers: Infinity War",
+    "keyword": "cost"
+  },
+  {
+    "quote": "Daughter. [did you do it?] Yes.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "gamora"
+  },
+  {
+    "quote": "You should've . . . you . . . you should've gone for the head.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "head"
+  },
+  {
+    "quote": "I don't even know who you are!",
+    "movie": "Avengers: Endgame",
+    "keyword": "surprise"
+  },
+  {
+    "quote": "Rain fire. Just do it!",
+    "movie": "Avengers: Endgame",
+    "keyword": "fire, rain"
+  },
+  {
+    "quote": "That was a mistake.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "mistake"
+  },
+  {
+    "quote": "Your optimism is misplaced, Asgardian.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "optimism, asgard"
+  },
+  {
+    "quote": "They'll never know it . . . because you won't be alive to tell them.",
+    "movie": "Avengers: Endgame",
+    "keyword": "alive"
+  },
+  {
+    "quote": "There are two more stones on Earth. Find them, my children, and bring them to me on Titan.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "earth"
+  },
+  {
+    "quote": "I used the stones to destroy the stones. It nearly killed me. But the work is done. It always will be. I am inevitable.",
+    "movie": "Avengers: Endgame",
+    "keyword": "inevitable"
+  },
+  {
+    "quote": "My . . . Gamora . . .",
+    "movie": "Avengers: Infinity War",
+    "keyword": "gamora"
+  },
+  {
+    "quote": "I . . . had . . . to . . . ",
+    "movie": "Avengers: Infinity War",
+    "keyword": "sacrifice"
+  },
+  {
+    "quote": "Our?",
+    "movie": "Avengers: Infinity War",
+    "keyword": "our"
+  },
+  {
+    "quote": "If you consider failure an experience.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "failure"
+  },
+  {
+    "quote": "Go. Find the stones. Bring them to me. [what will you do?] Wait.",
+    "movie": "Avengers: Endgame",
+    "keyword": "infinity stones"
+  },
+  {
+    "quote": "Stark",
+    "movie": "Avengers: Infinity War",
+    "keyword": "stark"
+  },
+  {
+    "quote": "I do. You're not the only one cursed with knowledge",
+    "movie": "Avengers: Infinity War",
+    "keyword": "knowledge"
+  },
+  {
+    "quote": "Come on!",
+    "movie": "Avengers: Infinity War",
+    "keyword": "unbeatable"
+  },
+  {
+    "quote": "All that for a drop of blood?",
+    "movie": "Avengers: Infinity War",
+    "keyword": "blood"
+  },
+  {
+    "quote": "In all my years of conquest . . . violence . . . slaughter.  It was never personal. But I'll tell you now. What I'm about to do to your stubborn, annoying little planet.  I'm going to enjoy it. Very, very much",
+    "movie": "Avengers: Endgame",
+    "keyword": "conquest, violence, planet"
+  },
+  {
+    "quote": "Thank you, daughter. Perhaps I treated you too harshly.",
+    "movie": "Avengers: Endgame",
+    "keyword": "nebula"
+  },
+  {
+    "quote": "Well, well. [You should have killed me.] It would have been a waste of parts",
+    "movie": "Avengers: Infinity War",
+    "keyword": "nebula"
+  },
+  {
+    "quote": "Insect!",
+    "movie": "Avengers: Infinity War",
+    "keyword": "spider-man"
+  },
+  {
+    "quote": "You are full of tricks, wizard. Yet you never once used your greatest weapon. . . . A fake",
+    "movie": "Avengers: Infinity War",
+    "keyword": "wizard, trick"
+  },
+  {
+    "quote": "I take it the Maw is dead. This day extracts a heavy toll. Still, he accomplished his mission",
+    "movie": "Avengers: Infinity War",
+    "keyword": "maw, mission"
+  },
+  {
+    "quote": "Ronan has located the power stone. I am dispatching you to his ship",
+    "movie": "Avengers: Endgame",
+    "keyword": "infinity stone"
+  },
+  {
+    "quote": "Search the duplicate's memories . . . for infinity stones.",
+    "movie": "Avengers: Endgame",
+    "keyword": "infinty stone, duplicate"
+  },
+  {
+    "quote": "No resurrections this time",
+    "movie": "Avengers: Infinity War",
+    "keyword": "resurrection"
+  },
+  {
+    "quote": "What is wrong, little one?",
+    "movie": "Avengers: Infinity War",
+    "keyword": "gamora"
+  },
+  {
+    "quote": "You're quite the fighter, Gamora. Come, let me help you.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "gamora"
+  },
+  {
+    "quote": "You could not live with your own failure. And where did that bring you? Back to me. I thought by eliminating half of life, the other half would thrive. But you've shown me that's impossible. And as long as there are those that remember what was, there will always be those that are unable to accept what can be. They will resist.",
+    "movie": "Avengers: Endgame",
+    "keyword": "failure, elimination"
+  },
+  {
+    "quote": "I'm thankful. Because now, I know what I must do. I will shred this universe down to its last atom. And then, with the stones that you've collected for me, create a new one teeming with life that knows not what it has lost, but only what it has been given. A grateful universe",
+    "movie": "Avengers: Endgame",
+    "keyword": "universe, elimination, grateful"
+  },
+  {
+    "quote": "Undying? You should choose your words more carefully.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "undying"
+  },
+  {
+    "quote": "Everyone in the galaxy knows you'd sell your own brother if you thought it would add the slightest trinket to your pathetic collection",
+    "movie": "Avengers: Infinity War",
+    "keyword": "infinity stones"
+  },
+  {
+    "quote": "I know you have the Reality Stone, Tivan. Giving it to me will spare you a great deal of suffering",
+    "movie": "Avengers: Infinity War",
+    "keyword": "infinity stones"
+  },
+  {
+    "quote": "I imagine it's like breathing for you",
+    "movie": "Avengers: Infinity War",
+    "keyword": "lie"
+  },
+  {
+    "quote": "One to go",
+    "movie": "Avengers: Infinty War",
+    "keyword": "infinity stones"
+  },
+  {
+    "quote": "No tricks?",
+    "movie": "Avengers: Infinity War",
+    "keyword": "wizard trick"
+  },
+  {
+    "quote": "No, you won't",
+    "movie": "Avengers: Endgame",
+    "keyword": "nebula, disappoint"
+  },
+  {
+    "quote": "Bring her to my ship",
+    "movie": "Avengers: Endgame",
+    "keyword": "nebula"
+  },
+  {
+    "quote": "[Two Nebulas] No, the same Nebula . . . from two different times. Set course for Morag. And scan the duplicate's memories. I want to see everything",
+    "movie": "Avengers: Endgame",
+    "keyword": "nebula, duplicate"
+  },
+  {
+    "quote": "Run diagnostics. Show me her memory file. . . . Impossible",
+    "movie": "Avengers: Endgame",
+    "keyword": "nebula, duplicate"
+  },
+  {
+    "quote": "Where is this other Nebula?",
+    "movie": "Avengers: Endgame",
+    "keyword": "nebula, duplicate"
+  },
+  {
+    "quote": "You know us?",
+    "movie": "Avengers: Infinity War",
+    "keyword": "thanos, gamora"
+  },
+  {
+    "quote": "Where's the Soul Stone?",
+    "movie": "Avengers: Infinity War",
+    "keyword": "infinity stones"
+  },
+  {
+    "quote": "I am prepared.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "prapared"
+  },
+  {
+    "quote": "How is it you know this place so well?",
+    "movie": "Avengers: Infinity War",
+    "keyword": "knowledge"
+  },
+  {
+    "quote": "I am disappointed. But not because you didn't find it. But because you did . . . and you lied.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "disappoint, lie, infinity stones"
+  },
+  {
+    "quote": "You're strong. Me. You're generous. Me. But I never taught you to lie. That's why you're so bad at it. Where is the Soul Stone?",
+    "movie": "Avengers: Infinity War",
+    "keyword": "gamora, lie"
+  },
+  {
+    "quote": "I know. And you'll have the chance to prove it.",
+    "movie": "Avengers: Endgame",
+    "keyword": "nebula"
+  },
+  {
+    "quote": "Freeze image . . . . Avengers. Unruly wretches",
+    "movie": "Avengers: Endgame",
+    "keyword": "avengers"
+  },
+  {
+    "quote": "What's that reflection? Amplify this, Maw.",
+    "movie": "Avengers: Endgame",
+    "keyword": "avengers"
+  },
+  {
+    "quote": "Today, I lost more than you could know. But now is no time to mourn. Now . . . is no time at all",
+    "movie": "Avengers: Infinty War",
+    "keyword": "loss, time"
+  },
+  {
+    "quote": "I understand, my child. Better than anyone.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "wanda"
+  },
+  {
+    "quote": "I'm a survivor.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "thanos"
+  },
+  {
+    "quote": "What's this? Tell me what it needs.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "sacrifice"
+  },
+  {
+    "quote": "[A sacrifice.] Of what?",
+    "movie": "Avengers: Infinity War",
+    "keyword": "sacrifice"
+  },
+  {
+    "quote": "So you do understand? Not even you would surrender something so precious.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "infinity stones"
+  },
+  {
+    "quote": "Then you're more of a fool than I took you for. Last chance, charlatan. Where's the stone?",
+    "movie": "Avengers: Infinity War",
+    "keyword": "infinty stones"
+  },
+  {
+    "quote": "Why . . . ? Why you, daughter?",
+    "movie": "Avengers: Infinity War",
+    "keyword": "gamora, daughter"
+  },
+  {
+    "quote": "Is it sadness I sense in you, daughter? In my heart, I knew you still cared. But one never knows for sure. Reality is often disappointing. That is, it was. Now,  reality can be whatever I want.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "thanos, gamora, daughter"
+  },
+  {
+    "quote": "I counted on it. There's something we need to discuss, little one.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "gamora"
+  },
+  {
+    "quote": "Ah, the boyfriend  . . . Oh, daughter. You expect too much from him",
+    "movie": "Avengers: Infinity War",
+    "keyword": "daughter, gamora"
+  },
+  {
+    "quote": "She's asked, hasn't she? Do it. Do it!",
+    "movie": "Avengers: Infinity War",
+    "keyword": "thanos, gamora"
+  },
+  {
+    "quote": "I like you.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "thanos"
+  },
+  {
+    "quote": "I thought you might be hungry.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "thanos, gamora"
+  },
+  {
+    "quote": "So I've been told. Even so, I'd hoped you'd sit in it one day.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "thanos, gamora"
+  },
+  {
+    "quote": "You told me that too. Every day. For almost twenty years.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "thanos, gamora"
+  },
+  {
+    "quote": "I saved you.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "thanso, gamora, save"
+  },
+  {
+    "quote": "Going to bed hungry? Scrounging for scraps? Your planet was on the brink of collapse. I'm the one who stopped that. Do you know what's happened since then? The children born have known nothing but full bellies and clear skies. It's a paradise",
+    "movie": "Avengers: Infinity War",
+    "keyword": "planet, save"
+  },
+  {
+    "quote": "A small price to pay for salvation",
+    "movie": "Avengers: Infinity War",
+    "keyword": "save"
+  },
+  {
+    "quote": "Little one, it's a simple calculus. This universe is finite, its resources finite. If life is left unchecked, life will cease to exist. It needs correction.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "universe, correction"
+  },
+  {
+    "quote": "I'm the only one who knows that. At least, I'm the only one with the will to act on it. And for a time, you had that same will, as you fought by my side, daughter",
+    "movie": "Avengers: Infinity War",
+    "keyword": "daughter"
+  },
+  {
+    "quote": "And in doing so, made you the fiercest woman in the galaxy. That's why I trusted you to find the Soul Stone",
+    "movie": "Avengers: Infinity War",
+    "keyword": "thanos, gamora"
+  },
+  {
+    "quote": "Some time ago, your sister snuck aboard this ship to kill me. And very nearly succeeded. So I brought her here. To talk",
+    "movie": "Avengers: Infinity War",
+    "keyword": "nebula"
+  },
+  {
+    "quote": "The stone had better be up there . . . for your sister's sake",
+    "movie": "Avengers: Infinity War",
+    "keyword": "infinity stones"
+  },
+  {
+    "quote": "I ignored my destiny once. I cannot do that again. Even for you. I'm sorry, little one",
+    "movie": "Avengers: Infinity War",
+    "keyword": "destiny"
+  },
+  {
+    "quote": "And where do you think he brought you?",
+    "movie": "Avengers; Infinity War",
+    "keyword": "titan"
+  },
+  {
+    "quote": "It was. And it was beautiful. Titan was just like most planets. Too many mouths, not enough to go around. And when we faced extinction, I offered a solution. [Genocide.] But at random. Dispassionate, fair to rich and poor alike. They called me a madman. And what I predicted came to pass",
+    "movie": "Avengers: Infinity War",
+    "keyword": "titan, genocide"
+  },
+  {
+    "quote": "His alternative is death then. Ronan's obsession clouds his judgement",
+    "movie": "Avengers: Endgame",
+    "keyword": "judgement"
+  },
+  {
+    "quote": "With all six stones, I could simply snap my fingers, and they would all cease to exist. I call that mercy.",
+    "movie": "Avengers: Infinity War",
+    "keyword": "genocide"
+  },
+  {
+    "quote": "You have my respect, Stark. When I'm done, half of humanity will still be alive. I hope they remember you",
+    "movie": "Avengers: Infinity War",
+    "keyword": "stark"
+  },
+  {
+    "quote": "Can you access her?",
+    "movie": "Avengers: Endgame",
+    "keyword": "nebula, duplicate"
+  },
+  {
+    "quote": "Nothing . . . yet.  They're not trying to stop something I'm going to do in our time. They're trying to undo something I've already done in theirs.",
+    "movie": "Avengers: Endgame",
+    "keyword": "time"
+  },
+  {
+    "quote": "I found them all. I won. Tipped the cosmic scales to balance",
+    "movie": "Avengers: Endgame",
+    "keyword": "infinity stones"
+  },
+  {
+    "quote": "It's my destiny ",
+    "movie": "Avengers: Endgame",
+    "keyword": "destiny"
+  },
+  {
+    "quote": "And that is destiny fulfilled",
+    "movie": "Avengers: Endgame",
+    "keyword": "destiny"
+  },
+  {
+    "quote": "Daughter . . . So this is the future? Well done",
+    "movie": "Avengers: Endgame",
+    "keyword": "future, nebula"
+  },
+  {
+    "quote": "The arrogant never do.",
+    "movie": "Avengers: Endgame",
+    "keyword": "avengers"
+  }
+]
