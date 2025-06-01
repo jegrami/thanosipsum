@@ -5,12 +5,12 @@
 >
 > &mdash; <cite>Thanos</cite>
 
-Thanos Ipsum is a website and API that delivers iconic quotes from Marvel's beloved supervillain. A quote generator with a galactic touch that you could
+Thanos Ipsum is a website and API that delivers the iconic quotes of Marvel's beloved supervillain. A quote generator with a galactic touch that you could
 embed as placeholder text into your apps, prototypes, personal projects, templates, or whatever.
 
 Honestly, there's little chance this would be of use to anyone. 
-I made this project to gain experience in full stack web development workflow, albeit at a basic level. But hey, "despise not the days of humble 
-beginnings," right? 
+I made this project to gain experience in full stack web development workflow, albeit at a basic level. But hey, despise not the days of humble 
+beginnings, right? 
 
 Now, back to this thing.
 
@@ -27,10 +27,10 @@ Features include
 
 ## TOC
 
-1. [Introduction](#introduction)
+1. [Getting Started](#getting-started)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [API Endpoints](#api-endpoints)
+4. [API Documentation](#api-documentation)
 5. [License](#license)
 6. [Contact](#contact)
 
@@ -52,7 +52,7 @@ Ensure you have the following installed:
 
 
 > [!NOTE]
-> I wanted to use poetry for dependency management because, as of this writing and following my philosophy above, poetry is the most popular among the slew of modern Python packaging tools. But python-poetry.org seems to be rejecting traffic from my local network. It might have something to do with Poetry website being blocked by AT&T fiber, per [this Github issue](https://github.com/python-poetry/website/issues/153#issue-2285760763). Luckily, PDM
+> I wanted to use poetry for dependency management because, as of this writing and following my philosophy above, poetry is the most popular among the slew of modern Python packaging tools. But python-poetry.org seems to be rejecting traffic from my local network. It might have something to do with Poetry website being blocked to AT&T fiber network, per [this Github issue](https://github.com/python-poetry/website/issues/153#issue-2285760763). Luckily, PDM
 is also excellent, relatively popualar, and, most important, easy to set up. 
 
 ### Steps
@@ -84,10 +84,10 @@ pdm run uvicorn app:app --reload
 
 Visit the website and interact with the quote generator. Explore some words of doom from Thanos The Mad Titan.
 
-### API Endpoints
+### API Documentation
 
 If you're fetching quotes programatically, here are the few endpoints you need 
-to know, all *GET*s (see? it doesn't "get" any easier than this):
+to know:
 
 The base url endpoint is https://thanosipsum.onrender.com/api, and then:
 
