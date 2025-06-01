@@ -7,7 +7,7 @@ app = config.connexion_app
 app.add_api(config.basedir / "swagger.yml")
 
 
-with app.app_context():
+with config.app.app_context():
     config.db.create_all()
     
     
