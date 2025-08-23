@@ -35,7 +35,7 @@
                     <p>
                         I recently stumbled upon MCU's Avengers series.
                         And I kinda liked everything that baldheaded, ridge-chined, purple-ass motherfucker Thanos said. 
-                        (The dude's a legit philosopher.)  
+                        
                         So I made an API dedicated to his badassery. This is Thanos API, or TAPI.
                         Some Titanian-level wisdom right here.
                     </p>
@@ -44,7 +44,7 @@
                 <article class="endpoints">
                     <h3>Sever Endpoint</h3>
                     <p> 
-                        The base url for TAPI is <a href="https://thanosipsum.onrender.com/api.">https://thanosipsum.onrender.com/api.</a>
+                        The base url for TAPI is <a href="https://thanos-ipsum.onrender.com/api.">https://thanos-ipsum.onrender.com/api.</a>
                         
                     </p>
 
@@ -63,14 +63,14 @@
                     <dl>
                         <dt>/quotes</dt>
                         <dd>
-                            Fetch all the quotes from the database. Don’t panic&mdash;There are only about 100 of them.
+                            Fetch all the quotes from the database. There are only about 100 of them.
                         </dd>
                         <dt>/quotes/{limit:int}</dt>
-                        <dd>This gets a specified number of random Thanos quotes</dd>
+                        <dd>Get the specified number of random Thanos quotes</dd>
                         <dt>/quotes/{limit:int}/{movie:str}</dt>
                         <dd>Want to see some quotes from a specific movie? This is ya route.</dd>
                         <dt>/quotes/{movie:str}</dt>
-                        <dd>This retrieves all the quotes from a given movie.</dd>
+                        <dd>Retrieves all the quotes from the given movie.</dd>
                     </dl>
                 </article>
 
@@ -78,19 +78,19 @@
                     <h3>Request and Response Examples</h3>
                     <p>How to get started? Simple.</p>
                     <ul>
-                        <li>Make a GET request to https://thanosipsum.onrender.com/api</li>
-                        <li>Use the endpoints to sculpt the output however you like.</li>
+                        <li>Make a GET request to https://thanos-ipsum.onrender.com/api</li>
+                        <li>Use any of the endpoints to sculpt the output however you like.</li>
                     </ul>
                     <h4>Example:</h4>
                     <ul>
-                        <li>Need three random quotes? <code class="inline">thanosipsum.onrender.com/api/quotes/3</code></li>
-                        <li>Want all quotes from Infinity War? <code class="inline">thanosipsum.onrender.com/quotes/infinity</code></li>
+                        <li>Need three random quotes? <code class="inline">https://thanos-ipsum.onrender.com/api/quotes/3</code></li>
+                        <li>Want all quotes from Infinity War? <code class="inline">https://thanos-ipsum.onrender.com/quotes/infinity</code></li>
 
                     </ul>
 
-                    <p>The response format is JSON, because even Thanos doesn't mess with XML.</p>
-                    <p>For instance, the following command (using faithful old cURL) would get you two whole paragraphs of uncut Thanos quotes from the movie Endgame:</p>
-                    <p><code class="inline">curl -X GET https://thanosipsum.com/api/quotes/2/endgame</code></p>
+                    <p>The response format is JSON ... because even Thanos doesn't mess with XML.</p>
+                    <p>For instance, the following command (using faithful old cURL) would get you two whole paragraphs of uncut Thanos lines from the movie Endgame:</p>
+                    <p><code class="inline">curl https://thanos-ipsum.com/api/quotes/2/endgame</code></p>
                     <pre>
                         <code>
                             [ {
@@ -114,7 +114,7 @@
                 </article>
                 <article class="conclusion">
                     <p>
-                        This API is purely for fun (obviously). So go ahead and play 
+                        This API is just for fun (obviously). So go ahead and play 
                         with it however you want. Build something unnecessary but awesome.
                     </p>
                     <p>But if you do build a million-dollar app with it, <a href="/contact" >send me a cut</a>.</p>
@@ -125,7 +125,7 @@
 
         <footer>
             <div class="footer-blurb">
-                <p>&copy; 2025. Blah blah blah | Thanos The Mad Titan.</p>
+                <p>&copy; 2025 Blah blah blah | Thanos The Mad Titan.</p>
                 <p>Half of all life preserved.</p>
 
             </div>
