@@ -1,12 +1,14 @@
 
 from flask import render_template
 import config
-from models import Quote
+from data_service import quote_service
+
+# from models import Quote
 
 app = config.connexion_app
 app.add_api(config.basedir / "swagger.yml")
 
-
+'''
 with config.app.app_context():
     config.db.create_all()
     
@@ -31,9 +33,11 @@ with config.app.app_context():
         except Exception as e:
             print(f"Error importing quotes: {e}")
 
+        '''
+
 @app.route('/')
 def home():
-    quotes = Quote.query.all()
+    quotes = quote_service.get_all_quotes()
     return render_template('home.html', quotes=quotes)
 
 @app.route('/documentation')
